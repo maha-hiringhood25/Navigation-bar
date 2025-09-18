@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>W3school Navigationbar</title>
+    <style>
+        .header {
+            background: yellow;
+            padding: 10px;
+        }
+        .header-logo {
+            width: 50px;
+            height: 50px;
+            justify-items: flex-start;
+        }
+
+        .header h4 {
+            font-size: 25px;
+            margin: 0;
+            text-align: center;
+        }
+        nav.languages {
+            background-color: DodgerBlue;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px 0;
+        }
+        nav.languages a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 15px;
+            border-radius: 5px;
+           
+        }
+        nav.languages a:hover {
+            background-color: #0f70d4;
+        }
+        .image {
+            display: block;
+            max-width: 500px;
+            height: auto;
+            margin: 50px auto;   
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content"></div>
+        <img class="header-logo" src="https://www.w3schools.com/favicon.ico" alt="Logo">
+        <h4 text-align: center;>W3school</h4>
+    </div>
+    <nav class="languages">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">PYTHON</a>
+        <a href="#">REACT</a>
+        <a href="#">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">JAVA</a>
+    </nav>
+    <img class="image" src="w3.png" alt="My Image">
+
+
+</body>
+</html>
+
